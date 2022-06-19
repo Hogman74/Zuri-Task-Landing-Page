@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -146,19 +147,19 @@ footer{
 }
 
 @media all and (max-width:900px){
-    .header-section{
+    .section1 {
         display: flex;
         gap:20px;
         align-items: center;
         flex-direction:column;
         text-align: center;
     }
-    body{
+    body {
         font-family: "Poppins", "Open-Sans", sans-serif;
         font-size: 12px;
     }
 
-    .main-section,#flow-conversation{
+    .section2 ,#flow {
         display:flex;
         gap:10px;
         border-radius:5px;
@@ -169,14 +170,14 @@ footer{
         padding:10px;
     }
 
-    .social-connect{
+    .socials {
         display: flex;
         gap:20px;
         flex-direction:column;
         justify-content: space-between;
     }
 
-    .get-started{
+    .start {
         display: flex;
         flex-direction: column;
         place-items: center center;
@@ -190,7 +191,7 @@ footer{
         box-shadow: 2px 1px 1px 2px hsl(208,11%,55%);
         text-align: center;
     }
-  .main-image{
+  .grow-img {
     height:70%;
     width:40%;
 }
